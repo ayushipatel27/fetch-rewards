@@ -13,7 +13,7 @@
 
 ## API usage examples
 
-### Add points to user
+### Add a transaction
 
 `POST http://localhost:8080/transaction/add`
 
@@ -27,7 +27,7 @@ Request body:
 ```
 
 
-### Spend user points
+### Spend points
 
 `POST http://localhost:8080/points/spend`
 
@@ -56,7 +56,7 @@ Response body:
 ]
 ```
 
-### Check user balance
+### Check points balance
 
 `GET http://localhost:8080/points/balance`
 
